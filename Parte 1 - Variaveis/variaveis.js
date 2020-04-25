@@ -1,3 +1,5 @@
+// Declarando variáveis
+
 let nome = "Super man"
 // Não se coloca aspas para números.
 let idade = 100
@@ -13,7 +15,13 @@ console.log(
   `
 )
 
-/* palavras chaves no JS que não se poded usar para criar variáveis:
-let class
-let function
-*/
+// Não se usa mais:
+var;
+
+// Valores que podem ser alterados:
+let contador = 0;
+contador = contador + 1;
+
+// Valores que não se alteram
+const nome = "Lara"
+const idade = 26
